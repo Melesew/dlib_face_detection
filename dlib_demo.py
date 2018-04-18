@@ -39,7 +39,7 @@ def annotate_landmarks(img, landmarks):
         
     return img
 
-image = cv2.imread("images/IMG_20170811_212205_390.jpg")
+image = cv2.imread("images/kid.jpg")
 landmarks = get_landmarks(image)
 
 # print(landmarks)
